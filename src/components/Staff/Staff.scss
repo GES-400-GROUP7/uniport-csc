@@ -1,8 +1,12 @@
 .Staff {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 10px;
   background-color: #0f0b32;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
   .container-1 {
+    margin: 20px 40px;
     h2 {
       display: flex;
       flex-direction: column;
@@ -21,8 +25,55 @@
       color: #7ad8ff;
     }
 
-    button {
-        
+    .btn {
+      background-color: #0042a5;
+      color: #f4f9ff;
+      padding: 20px 32px;
+      font-family: Inter;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 0.42px;
+      border-style: none;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+  }
+  .container-2 {
+    margin: 75px 10px;
+    div {
+      display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+      div {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        img {
+          width: 375px;
+          height: 470px;
+        }
+        b {
+          display: flex;
+          flex-direction: column;
+          font-family: Inter;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          color: #f4f9ff;
+          span {
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 0.42px;
+            color: #7ad8ff;
+          }
+        }
+      }
     }
   }
 }
