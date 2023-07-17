@@ -1,10 +1,15 @@
 import React from 'react'
 
+// stylsheet
+import "./Footer.scss";
+
 function Footer() {
   return (
-    <div>
-        Hello there
-    </div>
+    <footer>
+        <div className="inner_footer">
+          <h2>Footer</h2>
+        </div>
+    </footer>
   )
 }
 
