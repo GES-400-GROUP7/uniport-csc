@@ -101,6 +101,7 @@ nav a:focus, nav p:focus {
     background-color: #f4f9ff;
     position: absolute;
     left: 550px;
+    z-index: 1;
 }
 
 
@@ -111,6 +112,7 @@ nav a:focus, nav p:focus {
   background-color: #f4f9ff;
   position: absolute;
   left: 700px;
+  z-index: 1;
 }
 
 .drop_menu ul,.department_drop_menu ul {

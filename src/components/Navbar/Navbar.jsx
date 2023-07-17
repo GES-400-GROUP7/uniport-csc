@@ -46,7 +46,7 @@ const handleDepartmentDropDown = () => {
   }
 
   return (
-    <div className="Navbar">
+    <div className="Navbar" id="top">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Computing Faculty | Welcome To The Faculty's Official Website</title>
@@ -63,12 +63,12 @@ const handleDepartmentDropDown = () => {
             <NavLink to="/" onClick={closeNavbar} className="home">
               Home
             </NavLink>
-            <p onClick={handleDepartmentDropDown} className="drop_down_menu">
+            <a href="#top" onClick={handleDepartmentDropDown} className="drop_down_menu">
             Department <FiChevronDown className="drop_down_icon"/>
-            </p>
-            <p to="/student" onClick={handleStudentDropDown} className="drop_down_menu">
+            </a>
+            <a href="#top" to="/student" onClick={handleStudentDropDown} className="drop_down_menu">
             Student <FiChevronDown className="drop_down_icon"/>
-            </p>
+            </a>
             <NavLink to="/news_events" onClick={closeNavbar}>
             News/Events
             </NavLink>
