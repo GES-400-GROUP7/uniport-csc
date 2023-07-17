@@ -1,10 +1,15 @@
 import React from 'react'
+import Layout from '../../components/Layout/Layout'
+import Explore from '../../components/Explore/Explore'
+import Staff from '../../components/Staff/Staff'
 
 function Home() {
   return (
-    <div>
-        Hello there
-    </div>
+     <Layout>
+       <Explore/>
+       <Staff/>
+     </Layout>   
+       
   )
 }
 

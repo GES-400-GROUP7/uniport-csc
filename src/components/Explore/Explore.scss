@@ -1,0 +1,41 @@
+.Explore {
+  div {
+    h2 {
+      display: flex;
+      flex-direction: column;
+      font-family: Inter;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -0.96px;
+      color: #002660;
+      position: relative;
+      left: 75px;
+    }
+    span {
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      color: #0F0B32;
+    }
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      margin: 15px;
+
+      .special {
+        width: 636px;
+        height: 320px;
+      }
+      .normal {
+        width: 268px;
+        height: 320px;
+      }
+    }
+  }
+}
