@@ -1,0 +1,290 @@
+/* Inter Google Font Link */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.container {
+  padding: 20px 0;
+  width: 100%;
+  background-color: #f4f9ff;
+  font-family: "Inter", sans-serif;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 100%;
+}
+
+.logo img {
+  width: 80%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  font-family: "Barlow", sans-serif;
+}
+
+.home {
+  color: #0042a5;
+}
+
+nav a, nav p {
+  margin: 0 2rem;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #0f0b32;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+nav p{
+    cursor: pointer;
+}
+
+nav a:hover {
+  border-bottom: 3px solid #7ad8ff;
+}
+
+nav a:focus, nav p:focus {
+  font-weight: 600;
+  color: #000000;
+}
+
+.join_now button {
+  outline: none;
+  background-color: #0042a5;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  color: #ffffff;
+}
+
+.join_now button:hover {
+  background-color: #00a0e3;
+}
+
+.drop_down_menu {
+  display: flex;
+  align-items: center;
+  column-gap: 2px;
+}
+
+.drop_down_icon {
+  color: #0042a5;
+}
+
+// Drop down menu
+.department_drop_menu{
+    width: 200px;
+    top: 70px;
+    background-color: #f4f9ff;
+    position: absolute;
+    left: 550px;
+}
+
+
+
+.drop_menu {
+  width: 200px;
+  top: 70px;
+  background-color: #f4f9ff;
+  position: absolute;
+  left: 700px;
+}
+
+.drop_menu ul,.department_drop_menu ul {
+  padding: 20px;
+}
+
+.drop_menu ul li,.department_drop_menu ul li {
+  margin: 20px auto;
+}
+
+.drop_menu ul li a, .department_drop_menu ul li a {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+  color: #0F0B32;
+}
+
+.drop_menu ul li a:hover,.department_drop_menu ul li a:hover{
+    color: #0042a5;
+}
+
+.reg-incase button {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.5s;
+  line-height: 26px;
+  color: #ffffff;
+  outline: none;
+  padding: 5px 20px 5px 20px;
+  border-radius: 4px;
+}
+
+.mobile_join_us {
+  display: none;
+}
+
+header .nav-btn {
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  display: none;
+  font-size: 1.5rem;
+  color: #c0c0c0;
+}
+
+// Responsiveness starts here
+@media (max-width: 1280px) {
+  nav a {
+    margin: 0 1.5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  nav a {
+    font-size: 18px;
+    margin: 0 1rem;
+  }
+
+  .join_now button {
+    outline: none;
+    background-color: #0042a5;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    color: #ffffff;
+  }
+}
+
+/* Medium Screens */
+@media (max-width: 991px) {
+  header {
+    height: 5vh;
+    overflow-y: hidden;
+  }
+  .logo {
+    display: none;
+  }
+  .mobile_logo {
+    display: block;
+  }
+  header .nav-btn,
+  .reg-incase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    gap: 20px;
+  }
+  .reg-incase button {
+    padding: 5px 50px 5px 50px;
+  }
+  header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80%;
+    width: 100%;
+    box-shadow: 0 3px 10px rgb(0 0 0 /0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: #181818;
+    color: #ffffff;
+    transition: 1s;
+    transform: translateX(-100vh);
+    z-index: 100;
+  }
+  nav a {
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  header .responsive_nav {
+    transform: none;
+  }
+  .reg {
+    display: none;
+  }
+  .join_now button {
+    display: none;
+  }
+  .last_point {
+    display: block;
+  }
+  .mobile_join_us {
+    display: block;
+    outline: none;
+    background-color: #0042a5;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    color: #ffffff;
+  }
+}
+
+/* Small Screens */
+@media only screen and (max-width: 480px) {
+  .logo {
+    display: none;
+  }
+  header nav {
+    height: 85%;
+  }
+  .mobile_logo {
+    display: block;
+  }
+  .mobile_logo img {
+    width: 100px;
+    height: 120px;
+  }
+}
