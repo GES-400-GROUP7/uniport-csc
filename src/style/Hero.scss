@@ -1,0 +1,54 @@
+.hero {
+  padding-top: 150px;
+  width: 100%;
+  background-image: url(../components/Hero/images/Hero.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  .inner_hero {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 170px;
+
+    h4 {
+      font-family: Inter;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      color: #00e3b5;
+    }
+
+    h1 {
+      color: #FFF;
+      font-family: Inter;
+      font-size: 80px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -2.4px;
+    }
+
+    span{
+      font-family: Inter;
+      font-size: 80px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -2.4px;
+      color: #7AD8FF;
+    }
+
+    .hero_arrows{
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+      margin-top: 10px;
+      color: #F4F9FF;
+      font-size: 35px;
+      cursor: pointer;
+    }
+  }
+}
