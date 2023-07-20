@@ -10,8 +10,9 @@ function Staff() {
             <span> At amet malesuada montes nunc semper. Auctor consequat cras amet
           aliquam pretium feugiat.</span>
         </h2>
-        <Link className="btn" to="team">visit the STAFF PROFILE page</Link>
+        <Link className="btn" to="team">VISIT THE STAFF PROFILE PAGE</Link>
       </div>
+     
       <div className="container-2">
         <div>
           <div>
@@ -43,6 +44,7 @@ function Staff() {
             </b>
           </div>
         </div>
+        <Link className="btn2" to="team">VISIT THE STAFF PROFILE PAGE</Link>
       </div>
     </div>
   );

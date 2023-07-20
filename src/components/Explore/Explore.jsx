@@ -17,7 +17,6 @@ function Explore() {
           <img className="normal" src="/images/Pic2.jpg" alt="" />
           <img className="normal" src="/images/Pic3.jpg" alt="" />
         </div>
-
         <div>
           <img className="normal" src="/images/Pic4.jpg" alt="" />
           <img className="special" src="/images/Pic6.jpg" alt="" />
