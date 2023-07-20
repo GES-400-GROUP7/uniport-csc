@@ -1,0 +1,112 @@
+.about_container{
+    padding-top: 80px;
+    width: 100%;
+
+    .about_header{
+        background-image: url(../../components/Hero/images/Hero.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px 80px;
+    
+        h1 {
+          color: #fff;
+          font-family: Inter;
+          font-size: 70px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          letter-spacing: -2.4px;
+        }
+    }
+
+    .about_body{
+        width: 70%;
+        margin: 50px auto;
+
+        .background {
+            margin-bottom: 30px;
+          h3 {
+            color: #002660;
+            font-family: Inter;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.64px;
+            margin-bottom: 10px;
+          }
+    
+          p {
+            color: var(--black, #0f0b32);
+            text-align: justify;
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 42px;
+          }
+        }
+
+        .achievement {
+            margin-bottom: 30px;
+          h3 {
+            color: #002660;
+            font-family: Inter;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.64px;
+            margin-bottom: 10px;
+          }
+    
+          p {
+            color: var(--black, #0f0b32);
+            text-align: justify;
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 42px;
+          }
+        }
+    }
+}
+
+/* Small Screens */
+@media only screen and (max-width: 480px) {
+  .about_container{
+
+    .about_header{
+      padding: 50px;
+      h1{
+        font-size: 32px;
+      }
+    }
+
+    .about_body{
+        width: 80%;
+      .background{
+        h3{
+          font-size: 24px;
+        }
+
+        p{
+          font-size: 14px;
+          line-height: 20px;
+        }
+      }
+      .achievement{
+        h3{
+          font-size: 24px;
+        }
+
+        p{
+          font-size: 14px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}
