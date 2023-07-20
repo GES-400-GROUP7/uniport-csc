@@ -4,9 +4,7 @@ import Layout from '../../components/Layout/Layout'
 function Team() {
   return (
     <Layout>
-        <div>
-            
-        </div>
+      
     </Layout>
   )
 }
