@@ -1,6 +1,208 @@
-footer{
-    background-color: #002660;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+footer {
+  background-image: url(./images/Footer.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+
+  .inner_footer {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 70px auto;
+
+    .left_inner_footer {
+      display: flex;
+      align-items: flex-start;
+      column-gap: 20px;
+      .footer_logos {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        img {
+          width: 50px;
+        }
+      }
+      .footer_address {
+        p {
+          color: #fff;
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+
+        .direction_link {
+          display: flex;
+          align-items: center;
+          margin-top: 10px;
+          text-decoration: none;
+          color: #fff;
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+
+          .direction_icon {
+            color: #ffcc07;
+            font-weight: 700;
+          }
+        }
+
+        .footer_details {
+          margin-top: 20px;
+
+          p {
+            margin-bottom: 5px;
+          }
+        }
+
+        :hover{
+          color: #ffcc07;
+        }
+      }
+    }
+
+    .right_inner_footer {
+      display: flex;
+      column-gap: 50px;
+
+      .left_right_inner_footer {
+        ul {
+          display: flex;
+          flex-direction: column;
+          row-gap: 15px;
+        }
+
+        li {
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+
+        .footer_link {
+          text-decoration: none;
+          color: #fff;
+          transition: all 0.2s ease;
+        }
+
+        .footer_link:hover {
+          color: #00e3b5;
+        }
+      }
+
+      .right_right_inner_footer {
+        ul {
+          display: flex;
+          flex-direction: column;
+          row-gap: 15px;
+        }
+
+        li {
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+
+        a {
+          text-decoration: none;
+          color: #fff;
+          transition: all 0.2s ease;
+        }
+        a:hover {
+          color: #00e3b5;
+        }
+      }
+    }
+  }
+
+  .copy_right {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-top: 2px solid #f4f9ff;
+
+    p {
+      color: #fff;
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+
+    span {
+      color: #00e3b5;
+    }
+  }
+}
+
+// Responsiveness starts here
+/* Medium Screens */
+@media (max-width: 991px) {
+  footer{
+    .inner_footer{
+      .left_inner_footer{
+        .footer_address{
+          p{
+            font-size: 14px;
+          }
+        }
+      }
+
+      .right_inner_footer{
+        .left_right_inner_footer{
+          li{
+            font-size: 14px;
+          }
+        }
+        .right_right_inner_footer{
+          li{
+            font-size: 14px;
+          }
+        }
+      }
+    }
+
+    .copy_right{
+      flex-direction: column;
+      row-gap: 10px;
+      p{
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+/* Small Screens */
+@media only screen and (max-width: 480px) {
+  footer{
+    .inner_footer{
+      flex-direction: column;
+      row-gap: 50px;
+
+      .left_inner_footer{
+        flex-direction: column;
+        row-gap: 20px;
+      }
+
+      .right_inner_footer{
+        flex-direction: column;
+        row-gap: 10px;
+        .right_right_inner_footer{
+          li{
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
 }

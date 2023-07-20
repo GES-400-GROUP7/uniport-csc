@@ -1,11 +1,30 @@
 .hero {
   padding-top: 150px;
   width: 100%;
-  background-image: url(../components/Hero/images/Hero.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  background-image: url(../components/Hero/images/Hero.png);
+  animation: animate 16s ease-in-out infinite;
+
+  @keyframes animate {
+    0%{
+      background-image: url(../components/Hero/images/Hero.png);
+    }
+    25%{
+      background-image: url(../components/Hero/images/Hero2.png);
+    }
+    50%{
+      background-image: url(../components/Hero/images/Hero3.png);
+    }
+    75%{
+      background-image: url(../components/Hero/images/Hero4.png);
+    }
+    100%{
+      background-image: url(../components/Hero/images/Hero2.png);
+    }
+  }
 
   .inner_hero {
     width: 90%;
@@ -49,6 +68,55 @@
       color: #F4F9FF;
       font-size: 35px;
       cursor: pointer;
+    }
+  }
+}
+
+// Responsiveness starts here
+
+@media (max-width: 1024px) {
+  .hero{
+
+    .inner_hero{
+      margin-top: 100px;
+    }
+  }
+}
+
+/* Medium Screens */
+@media (max-width: 991px) {
+  .hero{
+
+    .inner_hero{
+      h4{
+        font-size: 20px;
+        width: 30%;
+        margin-bottom: 50px;
+      }
+
+      h1{
+        font-size: 65px;
+      }
+      span{
+        font-size: 65px;
+      }
+    }
+  }
+}
+
+/* Small Screens */
+@media only screen and (max-width: 480px) {
+  .hero{
+
+    .inner_hero{
+      margin-top: 130px;
+      h4{
+        width: 60%;
+      }
+      h1,span{
+        width: 80%;
+        font-size: 50px;
+      }
     }
   }
 }

@@ -1,6 +1,16 @@
 /* Inter Google Font Link */
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
+.mobile_container{
+  display: none;
+  padding: 20px 0;
+  width: 100%;
+  background-color: #f4f9ff;
+  font-family: "Inter", sans-serif;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 .container {
   padding: 20px 0;
   width: 100%;
@@ -94,6 +104,10 @@ nav a:focus, nav p:focus {
   color: #0042a5;
 }
 
+.drop_down_menu:hover{
+  border-bottom: none;
+}
+
 // Drop down menu
 .department_drop_menu{
     width: 200px;
@@ -132,8 +146,8 @@ nav a:focus, nav p:focus {
   color: #0F0B32;
 }
 
-.drop_menu ul li a:hover,.department_drop_menu ul li a:hover{
-    color: #0042a5;
+.drop_menu ul li a:active,.department_drop_menu ul li a:active{
+    color: #00A0E3;
 }
 
 .reg-incase button {
@@ -168,15 +182,36 @@ header .nav-btn {
 // Responsiveness starts here
 @media (max-width: 1280px) {
   nav a {
-    margin: 0 1.5rem;
+    margin: 0 20px;
   }
+  nav a {
+    font-size: 14px;
+  }
+  .drop_menu {
+    left: 600px;
+  }
+  .department_drop_menu{
+    left: 450px;
+}
 }
 
 @media (max-width: 1024px) {
-  nav a {
-    font-size: 18px;
-    margin: 0 1rem;
+  header{
+    width: 95%;
   }
+  nav a {
+    margin: 0 5px;
+  }
+  nav a {
+    font-size: 14px;
+  }
+
+  .drop_menu {
+    left: 450px;
+  }
+  .department_drop_menu{
+    left: 380px;
+}
 
   .join_now button {
     outline: none;
@@ -198,13 +233,17 @@ header .nav-btn {
 
 /* Medium Screens */
 @media (max-width: 991px) {
+  .container{
+    display: none;
+  }
+  .mobile_container{
+    display: block;
+  }
   header {
     height: 5vh;
     overflow-y: hidden;
   }
-  .logo {
-    display: none;
-  }
+
   .mobile_logo {
     display: block;
   }
@@ -231,17 +270,20 @@ header .nav-btn {
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-    background-color: #181818;
-    color: #ffffff;
+    background-color: #7AD8FF;
+    color: #0F0B32;
     transition: 1s;
     transform: translateX(-100vh);
     z-index: 100;
   }
   nav a {
-    color: white;
+    color: #0F0B32;
     letter-spacing: 1px;
     font-weight: 500;
     font-size: 20px;
+  }
+  nav a:hover {
+    border-bottom: none;
   }
   header .responsive_nav {
     transform: none;
@@ -258,7 +300,7 @@ header .nav-btn {
   .mobile_join_us {
     display: block;
     outline: none;
-    background-color: #0042a5;
+    background-color: #0042A5;
     border: none;
     padding: 15px 30px;
     cursor: pointer;
@@ -270,15 +312,15 @@ header .nav-btn {
     font-weight: 600;
     font-size: 16px;
     line-height: 23px;
-    color: #ffffff;
+    color: #7AD8FF;
   }
+.drop_down_menu ,.drop_menu{
+  display: none;
+}
 }
 
 /* Small Screens */
 @media only screen and (max-width: 480px) {
-  .logo {
-    display: none;
-  }
   header nav {
     height: 85%;
   }
