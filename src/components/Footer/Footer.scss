@@ -120,6 +120,9 @@ footer {
         }
       }
     }
+    .dropdown_content_in_footer{
+      display: none;
+    }
   }
 
   .copy_right {
@@ -159,6 +162,7 @@ footer {
       }
 
       .right_inner_footer{
+        display: none;
         .left_right_inner_footer{
           li{
             font-size: 14px;
@@ -168,6 +172,41 @@ footer {
           li{
             font-size: 14px;
           }
+        }
+      }
+
+      .dropdown_content_in_footer{
+        display: block;
+        color: #00e3b5;
+        h3{
+          font-family: Inter;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          margin-bottom: 15px;
+        }
+        ul {
+          display: flex;
+          flex-direction: column;
+          row-gap: 15px;
+        }
+
+        li {
+          font-family: Inter;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+        .footer_link {
+          text-decoration: none;
+          color: #fff;
+          transition: all 0.2s ease;
+        }
+
+        .footer_link:hover {
+          color: #00e3b5;
         }
       }
     }

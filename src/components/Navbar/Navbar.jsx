@@ -129,14 +129,14 @@ const Navbar = () => {
                 Department <FiChevronDown className="drop_down_icon" />
               </a>
               <a
-                href="#footer"
+                href="#student"
                 onClick={handleStudentDropDown}
                 className="drop_down_menu"
               >
                 Student <FiChevronDown className="drop_down_icon" />
               </a>
-              <a href="#footer">Department <FiChevronDown className="drop_down_icon" /></a>
-              <a href="#footer">Student <FiChevronDown className="drop_down_icon" /></a>
+              <a href="#footer" onClick={closeNavbar}>Department <FiChevronDown className="drop_down_icon" /></a>
+              <a href="#footer" onClick={closeNavbar}>Student <FiChevronDown className="drop_down_icon" /></a>
               <NavLink to="/news_events" onClick={closeNavbar}>
                 News/Events
               </NavLink>
@@ -151,7 +151,7 @@ const Navbar = () => {
                 onClick={closeNavbar}
                 style={{ color: "#515151", fontSize: "32px" }}
               >
-                <AiOutlineClose />
+                <AiOutlineClose className="close_icon"/>
               </button>
             </nav>
             <NavLink to="/direction">
