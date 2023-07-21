@@ -51,6 +51,27 @@ function Footer() {
             </ul>
           </div>
         </div>
+        <div className="dropdown_content_in_footer" id="#department">
+          <h3>Department</h3>
+          <ul>
+              <li><NavLink to="/about" className="footer_link">About Us</NavLink></li>
+              <li><NavLink to="" className="footer_link">Staff Profile</NavLink></li>
+              <li><NavLink to="" className="footer_link">Programme</NavLink></li>
+              <li><NavLink to="" className="footer_link">Meeting</NavLink></li>
+              <li><NavLink to="" className="footer_link">Handbook</NavLink></li>
+              <li><NavLink to="" className="footer_link">NACOS</NavLink></li>
+            </ul>
+        </div>
+        <div className="dropdown_content_in_footer" id="#student">
+          <h3>Student</h3>
+          <ul>
+              <li><NavLink to="/about" className="footer_link">Check Results</NavLink></li>
+              <li><NavLink to="" className="footer_link">Timetable</NavLink></li>
+              <li><NavLink to="" className="footer_link">Take Exam (CBT)</NavLink></li>
+              <li><NavLink to="" className="footer_link">Apply For Certificate</NavLink></li>
+              <li><NavLink to="" className="footer_link">Study Resources</NavLink></li>
+            </ul>
+        </div>
       </div>
       <div className="copy_right">
         <div className="left_copyright">

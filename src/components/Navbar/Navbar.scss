@@ -269,11 +269,12 @@ header .nav-btn {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0 20px;
     gap: 1.5rem;
     background-color: #7AD8FF;
     color: #0F0B32;
     transition: 1s;
-    transform: translateX(-100vh);
+    transform: translateY(-100%);
     z-index: 100;
   }
   nav a {
@@ -322,7 +323,7 @@ header .nav-btn {
 /* Small Screens */
 @media only screen and (max-width: 480px) {
   header nav {
-    height: 85%;
+    height: 523px;
   }
   .mobile_logo {
     display: block;
