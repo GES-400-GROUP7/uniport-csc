@@ -7,10 +7,12 @@ import Degree from "./pages/Degree/Degree";
 import About from "./pages/About/About";
 import Certificate from "./pages/Certificate/Certificate"
 import Direction from "./pages/Direction/Direction"
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <div className="App">
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/team" element={<Team />} />
