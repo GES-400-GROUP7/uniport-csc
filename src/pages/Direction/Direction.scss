@@ -1,14 +1,13 @@
 .direction {
-  padding: 80px 0;
+  padding-top: 80px;
   width: 100%;
-  
+
   .direction_header {
     background-image: url(../../components/Hero/images/Hero.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px 80px;
-    margin: 50px 0;
 
     h1 {
       color: #fff;
@@ -21,22 +20,63 @@
     }
   }
 
-  .container {
-    width: 70%;
+  .direction_body {
+    width: 80%;
     margin: 50px auto;
-    button {
-      padding: 20px 32px;
-      margin: 30px 0;
-      background-color: #0042a5;
-      a {
-        color: white;
-        text-decoration: none;
+
+    .background {
+      margin-bottom: 30px;
+      div {
+        margin: 30px 0;
+        button {
+          padding: 20px 32px;
+          background-color: #0042a5;
+          a {
+            text-decoration: none;
+            color: white;
+          }
+        }
+      }
+
+      div {
+        border-radius: 0;
+        img {
+          width: 1553px;
+          height: 1553px;
+        }
       }
     }
-    div {
-      img {
-        width: 1553px;
-        height: 1553px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    .direction_header {
+      padding: 50px;
+      h1 {
+        font-size: 32px;
+      }
+    }
+
+    .direction_body {
+      width: 91%;
+      margin: 20px auto;
+
+      .background {
+        margin-bottom: 10px;
+        div {
+          button {
+            padding: 15px 15px;
+            a {
+              font-size: 10px;
+            }
+          }
+        }
+
+        div {
+          img {
+            width: 350px;
+            height: 350px;
+          }
+        }
       }
     }
   }

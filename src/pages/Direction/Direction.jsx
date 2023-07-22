@@ -1,26 +1,25 @@
 import React from "react";
 import Layout from "../../components/Layout/Layout";
-import Explore from "../../components/Explore/Explore";
 import "./Direction.scss";
 
 function Direction() {
   return (
     <Layout>
-    <div className="direction">
+      <main className="direction">
         <div className="direction_header">
-        <h1>Direction</h1>
-      </div>
-
-      {/* <div className="container">
-        <button>
-          <a href="#">GET LIVE DIRECTION TO THE DEPARTMENTAL BUILDING</a>
-        </button>
-
-        <div>
-          <img src="/images/Map.jpg" alt="map" />
+          <h1>Direction</h1>
         </div>
-      </div> */}
-    </div>
+        <div className="direction_body">
+          <div className="background">
+            <div>
+              <button><a href="#">GET LIVE DIRECTION TO THE DEPARTMENTAL BUILDING</a></button>
+            </div>
+            <div>
+              <img src="/images/Map.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </main>
     </Layout>
   );
 }
