@@ -56,7 +56,7 @@ function Footer() {
           <ul>
               <li><NavLink to="/about" className="footer_link">About Us</NavLink></li>
               <li><NavLink to="" className="footer_link">Staff Profile</NavLink></li>
-              <li><NavLink to="" className="footer_link">Programme</NavLink></li>
+              <li><NavLink to="/degree" className="footer_link">Programme</NavLink></li>
               <li><NavLink to="" className="footer_link">Meeting</NavLink></li>
               <li><NavLink to="" className="footer_link">Handbook</NavLink></li>
               <li><NavLink to="" className="footer_link">NACOS</NavLink></li>
@@ -65,7 +65,7 @@ function Footer() {
         <div className="dropdown_content_in_footer" id="#student">
           <h3>Student</h3>
           <ul>
-              <li><NavLink to="/about" className="footer_link">Check Results</NavLink></li>
+              <li><NavLink to="https://csc-result-checker.vercel.app/" className="footer_link" target="_blank">Check Results</NavLink></li>
               <li><NavLink to="" className="footer_link">Timetable</NavLink></li>
               <li><NavLink to="" className="footer_link">Take Exam (CBT)</NavLink></li>
               <li><NavLink to="" className="footer_link">Apply For Certificate</NavLink></li>
