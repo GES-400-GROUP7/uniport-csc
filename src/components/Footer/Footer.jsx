@@ -24,7 +24,7 @@ function Footer() {
             <p>Computer Science Department,</p>
             <p>University of Port Harcourt, East/West Road,</p>
             <p>PMB 5323 Choba, Rivers State, Nigeria.</p>
-            <NavLink to="" className="direction_link">Get Directions < FiChevronRight className="direction_icon"/></NavLink>
+            <NavLink to="/direction" className="direction_link">Get Directions < FiChevronRight className="direction_icon"/></NavLink>
             <div className="footer_details">
               <p>Phone: +234 81xx xxxx</p>
               <p>Email: cscdept@uniport.edu.ng</p>

@@ -1,0 +1,181 @@
+.Staff_page {
+  padding-top: 80px;
+  width: 100%;
+
+  .staff_header {
+    background-image: url(../../components/Hero/images/Hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 80px;
+
+    h1 {
+      color: #fff;
+      font-family: Inter;
+      font-size: 70px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -2.4px;
+    }
+  }
+
+  .staff_body {
+    width: 90%;
+    margin: 50px auto;
+
+    .staff_background {
+      margin-bottom: 30px;
+      div {
+        margin: 15px 0;
+        .container1 {
+          h1 {
+            font-family: Inter;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.64px;
+            color: #002660;
+          }
+          div {
+            display: flex;
+            flex-direction: column;
+
+            img {
+              width: 375px;
+              height: 470px;
+            }
+            b {
+              display: flex;
+              flex-direction: column;
+              font-family: Inter;
+              font-size: 24px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+              color: #0042a5;
+              span {
+                font-family: Inter;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 0.42px;
+                color: black;
+              }
+            }
+          }
+        }
+
+        .container2,
+        .container3 {
+          margin: 66px 0;
+          h1 {
+            font-family: Inter;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.64px;
+            color: #002660;
+          }
+          div {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 12px;
+            div {
+              display: flex;
+              flex-direction: column;
+              img {
+                width: 455px;
+                height: 490px;
+              }
+              b {
+                display: flex;
+                flex-direction: column;
+                font-family: Inter;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                color: #0042a5;
+                span {
+                  font-family: Inter;
+                  font-size: 14px;
+                  font-style: normal;
+                  font-weight: 700;
+                  line-height: normal;
+                  letter-spacing: 0.42px;
+                  color: black;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .staff_header {
+      padding: 50px 30px;
+      h1 {
+        font-size: 32px;
+      }
+    }
+
+    .staff_body {
+      .staff_background {
+        margin-bottom: 0;
+        div {
+          margin: 5px 0;
+          .container1 {
+            h1 {
+              font-size: 24px;
+            }
+            div {
+              img {
+                width: 142px;
+                height: 179px;
+              }
+              b {
+                font-size: 16px;
+                span {
+                  font-size: 8px;
+                }
+              }
+            }
+          }
+
+          .container2,
+          .container3 {
+            margin: 66px 0;
+            h1 {
+              font-size: 24px;
+            }
+            div {
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+              gap: 12px;
+              div {
+                display: flex;
+                flex-direction: column;
+                img {
+                  width: 202px;
+                height: 179px;
+                }
+                b {
+                  font-size: 16px;
+                span {
+                  font-size: 8px;
+                }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
