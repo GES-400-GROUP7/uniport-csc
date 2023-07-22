@@ -58,6 +58,7 @@ function Footer() {
               <li><NavLink to="" className="footer_link">Staff Profile</NavLink></li>
               <li><NavLink to="/degree" className="footer_link">Programme</NavLink></li>
               <li><NavLink to="" className="footer_link">Meeting</NavLink></li>
+              <li><NavLink to="" className="footer_link">News/Events</NavLink></li>
               <li><NavLink to="" className="footer_link">Handbook</NavLink></li>
               <li><NavLink to="" className="footer_link">NACOS</NavLink></li>
             </ul>
