@@ -135,8 +135,8 @@ const Navbar = () => {
               >
                 Student <FiChevronDown className="drop_down_icon" />
               </a>
-              <a href="#footer" onClick={closeNavbar}>Department <FiChevronDown className="drop_down_icon" /></a>
-              <a href="#footer" onClick={closeNavbar}>Student <FiChevronDown className="drop_down_icon" /></a>
+              <a href="#footer" onClick={closeNavbar}>Department </a>
+              <a href="#footer" onClick={closeNavbar}>Student </a>
               <NavLink to="/news_events" onClick={closeNavbar}>
                 News/Events
               </NavLink>
