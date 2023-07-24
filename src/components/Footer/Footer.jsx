@@ -37,7 +37,7 @@ function Footer() {
               <li><NavLink to="/about" className="footer_link">About Us</NavLink></li>
               <li><NavLink to="/degree" className="footer_link">Degree Programme</NavLink></li>
               <li><NavLink to="" className="footer_link">Staff Profiles</NavLink></li>
-              <li><NavLink to="" className="footer_link">Certificate Application</NavLink></li>
+              <li><NavLink to="/cert" className="footer_link">Certificate Application</NavLink></li>
               <li><NavLink to="" className="footer_link">Take Exam (CBT)</NavLink></li>
               <li><NavLink to="" className="footer_link">Check Results</NavLink></li>
             </ul>

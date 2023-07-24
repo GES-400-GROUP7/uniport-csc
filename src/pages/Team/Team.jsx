@@ -17,7 +17,7 @@ function Team() {
                 <div>
                   <img
                     className="image"
-                    src="/images/Staff - Photo.jpg"
+                    src="/images/Lecturer2.jpg"
                     alt=""
                   />
                   <b className="title">
@@ -26,7 +26,7 @@ function Team() {
                 </div>
               </div>
               <div className="container2">
-                <h1 className="headings">Administrarive staffs</h1>
+                <h1 className="headings">Administrative staffs</h1>
                 <div>
                   <div>
                     <img
@@ -76,61 +76,51 @@ function Team() {
                   <div>
                     <img
                       className="image"
-                      src="/images/Staff - Photo.jpg"
+                      src="/images/Lecturer1.jpg"
                       alt=""
                     />
                     <b className="title">
-                      Dr. Friday Onuodu<span>Head of Department</span>
+                      Dr. L.U Oghenekaro<span>Lecturer</span>
                     </b>
                   </div>
                   <div>
                     <img
                       className="image"
-                      src="/images/Staff - Photo.jpg"
+                      src="/images/Lecturer3.jpg"
                       alt=""
                     />
                     <b className="title">
-                      Dr. Friday Onuodu<span>Head of Department</span>
+                      Dr. Friday Onuodu<span>Asst. Lecturer</span>
                     </b>
                   </div>
                   <div>
                     <img
                       className="image"
-                      src="/images/Staff - Photo.jpg"
+                      src="/images/Lecturer4.jpg"
                       alt=""
                     />
                     <b className="title">
-                      Dr. Friday Onuodu<span>Head of Department</span>
+                      Dr. Friday Onuodu<span>Lecturer</span>
                     </b>
                   </div>
                   <div>
                     <img
                       className="image"
-                      src="/images/Staff - Photo.jpg"
+                      src="/images/Lecturer5.jpg"
                       alt=""
                     />
                     <b className="title">
-                      Dr. Friday Onuodu<span>Head of Department</span>
+                      Dr. Wobidi <span>Lecturer</span>
                     </b>
                   </div>
                   <div>
                     <img
                       className="image"
-                      src="/images/Staff - Photo.jpg"
+                      src="/images/Lecturer6.jpg"
                       alt=""
                     />
                     <b className="title">
-                      Dr. Friday Onuodu<span>Head of Department</span>
-                    </b>
-                  </div>
-                  <div>
-                    <img
-                      className="image"
-                      src="/images/Staff - Photo.jpg"
-                      alt=""
-                    />
-                    <b className="title">
-                      Dr. Friday Onuodu<span>Head of Department</span>
+                      Dr. Rotimi <span>Lecturer</span>
                     </b>
                   </div>
                 </div>
