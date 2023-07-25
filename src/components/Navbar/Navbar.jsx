@@ -211,7 +211,7 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="" target="_blank">
+              <a href="/cert" target="_blank">
                 Apply for Certificate
               </a>
             </li>
