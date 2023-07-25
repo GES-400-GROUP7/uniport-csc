@@ -44,10 +44,10 @@ function Footer() {
           </div>
           <div className="right_right_inner_footer">
             <ul>
-              {/* <li><a href="">Schedule a Meet</a></li>
+              <li><a href="">Schedule a Meet</a></li>
               <li><a href="">Student’s Handbook</a></li>
               <li><a href="">NACOS</a></li>
-              <li><a href="">Check Timetable</a></li> */}
+              <li><a href="">Check Timetable</a></li>
             </ul>
           </div>
         </div>

@@ -109,32 +109,30 @@ nav a:focus, nav p:focus {
 }
 
 // Drop down menu
-.department_drop_menu{
+.department_drop_menu,.drop_menu{
     width: 200px;
-    top: 70px;
+    top: 85px;
     background-color: #f4f9ff;
     position: absolute;
-    left: 550px;
+    left: 600px;
     z-index: 1;
 }
 
-
-
-.drop_menu {
-  width: 200px;
-  top: 70px;
-  background-color: #f4f9ff;
-  position: absolute;
-  left: 700px;
-  z-index: 1;
+.drop_menu{
+  left: 750px;
 }
 
-.drop_menu ul,.department_drop_menu ul {
-  padding: 20px;
+.department_drop_menu ul li,.drop_menu ul li{
+  cursor: pointer;
+  padding: 15px 20px;
 }
 
-.drop_menu ul li,.department_drop_menu ul li {
-  margin: 20px auto;
+.department_drop_menu ul li:hover,.drop_menu ul li:hover{
+  background-color: #00A0E3;
+}
+
+.department_drop_menu ul li:hover a,.drop_menu ul li:hover a{
+  color: #FFF;
 }
 
 .drop_menu ul li a, .department_drop_menu ul li a {
@@ -147,7 +145,7 @@ nav a:focus, nav p:focus {
 }
 
 .drop_menu ul li a:active,.department_drop_menu ul li a:active{
-    color: #00A0E3;
+    color: #FFF;
 }
 
 .reg-incase button {
