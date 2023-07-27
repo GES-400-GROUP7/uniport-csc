@@ -69,7 +69,7 @@ function Footer() {
               <li><NavLink to="https://csc-result-checker.vercel.app/" className="footer_link" target="_blank">Check Results</NavLink></li>
               <li><NavLink to="" className="footer_link">Timetable</NavLink></li>
               <li><NavLink to="" className="footer_link">Take Exam (CBT)</NavLink></li>
-              <li><NavLink to="" className="footer_link">Apply For Certificate</NavLink></li>
+              <li><NavLink to="/cert" className="footer_link">Apply For Certificate</NavLink></li>
               <li><NavLink to="" className="footer_link">Study Resources</NavLink></li>
             </ul>
         </div>
