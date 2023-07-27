@@ -39,10 +39,12 @@ const Navbar = () => {
   //   Student dropdown
   const handleStudentDropDown = () => {
     setHideStudentDropdown(!hideStudentDropdown);
+    setHideDepartmentDropdown(false)
   };
 
   //   Department drop down
   const handleDepartmentDropDown = () => {
+    setHideStudentDropdown(false);
     setHideDepartmentDropdown(!hideDepartmentDropdown);
   };
 
@@ -170,7 +172,7 @@ const Navbar = () => {
           </header>
         </div>
       </>
-      {hideDepartmentDropdown ? (
+      {hideDepartmentDropdown && (
         <div className="department_drop_menu">
           <ul>
             <li>
@@ -193,14 +195,12 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-      ) : (
-        true
       )}
-      {hideStudentDropdown ? (
+      {hideStudentDropdown && (
         <div className="drop_menu">
           <ul>
             <li>
-              <a href="" target="_blank">
+              <a href="https://csc-result-checker.vercel.app/" target="_blank">
                 Check Results
               </a>
             </li>
@@ -224,8 +224,6 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-      ) : (
-        true
       )}
     </div>
   );
