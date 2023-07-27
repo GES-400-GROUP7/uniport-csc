@@ -13,13 +13,13 @@ function Explore() {
 
       <div>
         <div>
-          <img className="special" src="/images/Pic1.jpg" alt="" />
-          <img className="normal" src="/images/Pic2.jpg" alt="" />
+          <img className="special" src="/images/image3.jpeg" alt="" />
+          <img className="normal" src="/images/image2.jpeg" alt="" />
           <img className="normal" src="/images/Pic3.jpg" alt="" />
         </div>
         <div>
-          <img className="normal" src="/images/Pic4.jpg" alt="" />
-          <img className="special" src="/images/Pic6.jpg" alt="" />
+          <img className="normal" src="/images/images6.jpg" alt="" />
+          <img className="special" src="/images/image1.jpeg" alt="" />
           <img className="normal" src="/images/Pic5.jpg" alt="" />
         </div>
       </div>

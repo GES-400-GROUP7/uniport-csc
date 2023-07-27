@@ -45,6 +45,10 @@ footer {
           font-weight: 500;
           line-height: normal;
 
+          &:hover{
+            color: #ffcc07;
+          }
+
           .direction_icon {
             color: #ffcc07;
             font-weight: 700;
@@ -57,10 +61,6 @@ footer {
           p {
             margin-bottom: 5px;
           }
-        }
-
-        :hover{
-          color: #ffcc07;
         }
       }
     }

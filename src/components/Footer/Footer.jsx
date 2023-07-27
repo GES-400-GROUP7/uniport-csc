@@ -44,10 +44,10 @@ function Footer() {
           </div>
           <div className="right_right_inner_footer">
             <ul>
-              {/* <li><a href="">Schedule a Meet</a></li>
+              <li><a href="">Schedule a Meet</a></li>
               <li><a href="">Student’s Handbook</a></li>
               <li><a href="">NACOS</a></li>
-              <li><a href="">Check Timetable</a></li> */}
+              <li><a href="">Check Timetable</a></li>
             </ul>
           </div>
         </div>
@@ -58,6 +58,7 @@ function Footer() {
               <li><NavLink to="" className="footer_link">Staff Profile</NavLink></li>
               <li><NavLink to="/degree" className="footer_link">Programme</NavLink></li>
               <li><NavLink to="" className="footer_link">Meeting</NavLink></li>
+              <li><NavLink to="" className="footer_link">News/Events</NavLink></li>
               <li><NavLink to="" className="footer_link">Handbook</NavLink></li>
               <li><NavLink to="" className="footer_link">NACOS</NavLink></li>
             </ul>

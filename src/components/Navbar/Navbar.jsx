@@ -39,10 +39,12 @@ const Navbar = () => {
   //   Student dropdown
   const handleStudentDropDown = () => {
     setHideStudentDropdown(!hideStudentDropdown);
+    setHideDepartmentDropdown(false)
   };
 
   //   Department drop down
   const handleDepartmentDropDown = () => {
+    setHideStudentDropdown(false);
     setHideDepartmentDropdown(!hideDepartmentDropdown);
   };
 
@@ -135,8 +137,12 @@ const Navbar = () => {
               >
                 Student <FiChevronDown className="drop_down_icon" />
               </a>
-              <a href="#footer" onClick={closeNavbar}>Department </a>
-              <a href="#footer" onClick={closeNavbar}>Student </a>
+              <a href="#footer" onClick={closeNavbar}>
+                Department{" "}
+              </a>
+              <a href="#footer" onClick={closeNavbar}>
+                Student{" "}
+              </a>
               <NavLink to="/news_events" onClick={closeNavbar}>
                 News/Events
               </NavLink>
@@ -151,7 +157,7 @@ const Navbar = () => {
                 onClick={closeNavbar}
                 style={{ color: "#515151", fontSize: "32px" }}
               >
-                <AiOutlineClose className="close_icon"/>
+                <AiOutlineClose className="close_icon" />
               </button>
             </nav>
             <NavLink to="/direction">
@@ -166,7 +172,7 @@ const Navbar = () => {
           </header>
         </div>
       </>
-      {hideDepartmentDropdown ? (
+      {hideDepartmentDropdown && (
         <div className="department_drop_menu">
           <ul>
             <li>
@@ -189,14 +195,12 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-      ) : (
-        true
       )}
-      {hideStudentDropdown ? (
+      {hideStudentDropdown && (
         <div className="drop_menu">
           <ul>
             <li>
-              <a href="" target="_blank">
+              <a href="https://csc-result-checker.vercel.app/" target="_blank">
                 Check Results
               </a>
             </li>
@@ -214,6 +218,7 @@ const Navbar = () => {
               <a href="/cert" target="_blank">
                 Apply for Certificate
               </a>
+              <NavLink to="/cert">Apply for Certificate</NavLink>
             </li>
             <li>
               <a href="" target="_blank">
@@ -222,8 +227,6 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-      ) : (
-        true
       )}
     </div>
   );
