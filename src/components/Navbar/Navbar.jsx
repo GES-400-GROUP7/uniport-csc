@@ -215,6 +215,9 @@ const Navbar = () => {
               </a>
             </li>
             <li>
+              <a href="/cert" target="_blank">
+                Apply for Certificate
+              </a>
               <NavLink to="/cert">Apply for Certificate</NavLink>
             </li>
             <li>
