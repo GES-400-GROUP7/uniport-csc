@@ -6,8 +6,8 @@ function Uploader() {
         <div className="border flex flex-col items-center justify-center p-6 relative">
             <div className="flex flex-col items-center gap-2">
                 <img className="w-12" src={icon} alt="upload-icon" />
-                <p className="text-center text-gray-400 text-[12px]">Drag and drop your file here or</p>
-                <button className='text-[7px] font-semibold max-w-xs text-white bg-[#0042A5] px-2 py-1'>BROWSE FILES</button>
+                <p className="text-center text-gray-400 text-[15px]">Drag and drop your file here or</p>
+                <button className='text-[7px] font-semibold text-white bg-[#0042A5] px-4 py-2 md:'>BROWSE FILES</button>
             </div>
             <input 
             className=" absolute fileInput cursor-pointer p-6 w-full h-full opacity-0 rounded z-10" 
