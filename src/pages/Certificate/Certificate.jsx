@@ -8,7 +8,7 @@ function Certificate() {
   return (
     <Layout>
       <main className="w-full">
-        <section className="text-white text-3xl md:text-5xl font-bold cert-header pt-[100px] md:pt-[150px] md:pb-10 pl-16 md:pl-32">
+        <section className="text-white text-2xl  md:text-5xl text-center md:text-start  font-bold cert-header pt-[100px] md:pt-[150px] md:pb-10 md:pl-32">
           <h1 className="py-10">Certificate Application</h1>
         </section>
         <section className="px-16 py-10 md:px-32 md:py-20">
