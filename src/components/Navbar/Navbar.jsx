@@ -6,6 +6,7 @@ import "./Navbar.scss";
 // react icons
 import { AiOutlineClose } from "react-icons/ai";
 import { FiChevronDown } from "react-icons/fi";
+import { FiChevronRight } from "react-icons/fi";
 
 // Import Use Ref
 import { useRef, useState } from "react";
@@ -176,22 +177,23 @@ const Navbar = () => {
         <div className="department_drop_menu">
           <ul>
             <li>
-              <NavLink to="/about">About Us</NavLink>
+              <NavLink to="/about"><div className="inner_drop_link">
+              About Us <FiChevronRight className="drop_icon"/></div></NavLink>
             </li>
             <li>
-              <NavLink to="">Staff Profile</NavLink>
+              <NavLink to=""><div className="inner_drop_link">Staff Profile <FiChevronRight className="drop_icon"/></div></NavLink>
             </li>
             <li>
-              <NavLink to="/degree">Degree Programme</NavLink>
+              <NavLink to="/degree"><div className="inner_drop_link">Degree Programme <FiChevronRight className="drop_icon"/></div></NavLink>
             </li>
             <li>
-              <NavLink to="">Schedule Meeting</NavLink>
+            <NavLink to="/degree"><div className="inner_drop_link">Schedule Meeting <FiChevronRight className="drop_icon"/></div></NavLink>
             </li>
             <li>
-              <NavLink to="">Students Handbook</NavLink>
+              <NavLink to=""><div className="inner_drop_link">Students Handbook <FiChevronRight className="drop_icon"/></div></NavLink>
             </li>
             <li>
-              <NavLink to="">NACOS</NavLink>
+              <NavLink to=""><div className="inner_drop_link">NACOS <FiChevronRight className="drop_icon"/></div></NavLink>
             </li>
           </ul>
         </div>
@@ -200,27 +202,28 @@ const Navbar = () => {
         <div className="drop_menu">
           <ul>
             <li>
-              <a href="https://csc-result-checker.vercel.app/" target="_blank">
-                Check Results
-              </a>
+              <NavLink to="https://csc-result-checker.vercel.app/">
+                <div className="inner_drop_link">Check Results <FiChevronRight className="drop_icon"/></div>
+              </NavLink>
             </li>
             <li>
-              <a href="" target="_blank">
-                Timetable
-              </a>
+              <NavLink to="">
+              <div className="inner_drop_link">Timetable <FiChevronRight className="drop_icon"/></div>
+              </NavLink>
             </li>
             <li>
-              <a href="" target="_blank">
-                Take Exam (CBT)
-              </a>
+              <NavLink to="">
+              <div className="inner_drop_link">Take Exam (CBT) <FiChevronRight className="drop_icon"/></div>    
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/cert">Apply for Certificate</NavLink>
+
+            <NavLink to="/cert"><div className="inner_drop_link">Apply for Certificate <FiChevronRight className="drop_icon"/></div></NavLink>
             </li>
             <li>
-              <a href="" target="_blank">
-                Study Resources
-              </a>
+              <NavLink to="">
+              <div className="inner_drop_link">Study Resources <FiChevronRight className="drop_icon"/></div>
+              </NavLink>
             </li>
           </ul>
         </div>
