@@ -24,7 +24,7 @@ function Footer() {
             <p>Computer Science Department,</p>
             <p>University of Port Harcourt, East/West Road,</p>
             <p>PMB 5323 Choba, Rivers State, Nigeria.</p>
-            <NavLink to="" className="direction_link">Get Directions < FiChevronRight className="direction_icon"/></NavLink>
+            <NavLink to="/direction" className="direction_link">Get Directions < FiChevronRight className="direction_icon"/></NavLink>
             <div className="footer_details">
               <p>Phone: +234 81xx xxxx</p>
               <p>Email: cscdept@uniport.edu.ng</p>
@@ -37,7 +37,7 @@ function Footer() {
               <li><NavLink to="/about" className="footer_link">About Us</NavLink></li>
               <li><NavLink to="/degree" className="footer_link">Degree Programme</NavLink></li>
               <li><NavLink to="" className="footer_link">Staff Profiles</NavLink></li>
-              <li><NavLink to="" className="footer_link">Certificate Application</NavLink></li>
+              <li><NavLink to="/cert" className="footer_link">Certificate Application</NavLink></li>
               <li><NavLink to="" className="footer_link">Take Exam (CBT)</NavLink></li>
               <li><NavLink to="" className="footer_link">Check Results</NavLink></li>
             </ul>
@@ -69,7 +69,7 @@ function Footer() {
               <li><NavLink to="https://csc-result-checker.vercel.app/" className="footer_link" target="_blank">Check Results</NavLink></li>
               <li><NavLink to="" className="footer_link">Timetable</NavLink></li>
               <li><NavLink to="" className="footer_link">Take Exam (CBT)</NavLink></li>
-              <li><NavLink to="" className="footer_link">Apply For Certificate</NavLink></li>
+              <li><NavLink to="/cert" className="footer_link">Apply For Certificate</NavLink></li>
               <li><NavLink to="" className="footer_link">Study Resources</NavLink></li>
             </ul>
         </div>

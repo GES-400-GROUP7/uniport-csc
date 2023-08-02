@@ -138,8 +138,12 @@ const Navbar = () => {
               >
                 Student <FiChevronDown className="drop_down_icon" />
               </a>
-              <a href="#footer" onClick={closeNavbar}>Department </a>
-              <a href="#footer" onClick={closeNavbar}>Student </a>
+              <a href="#footer" onClick={closeNavbar}>
+                Department{" "}
+              </a>
+              <a href="#footer" onClick={closeNavbar}>
+                Student{" "}
+              </a>
               <NavLink to="/news_events" onClick={closeNavbar}>
                 News/Events
               </NavLink>
@@ -154,7 +158,7 @@ const Navbar = () => {
                 onClick={closeNavbar}
                 style={{ color: "#515151", fontSize: "32px" }}
               >
-                <AiOutlineClose className="close_icon"/>
+                <AiOutlineClose className="close_icon" />
               </button>
             </nav>
             <NavLink to="/direction">
@@ -198,29 +202,28 @@ const Navbar = () => {
         <div className="drop_menu">
           <ul>
             <li>
-              <a href="https://csc-result-checker.vercel.app/" target="_blank">
+              <NavLink to="https://csc-result-checker.vercel.app/">
                 <div className="inner_drop_link">Check Results <FiChevronRight className="drop_icon"/></div>
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="" target="_blank">
+              <NavLink to="">
               <div className="inner_drop_link">Timetable <FiChevronRight className="drop_icon"/></div>
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="" target="_blank">
+              <NavLink to="">
               <div className="inner_drop_link">Take Exam (CBT) <FiChevronRight className="drop_icon"/></div>    
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="" target="_blank">
-              <div className="inner_drop_link">Apply for Certificate <FiChevronRight className="drop_icon"/></div>
-              </a>
+
+            <NavLink to="/cert"><div className="inner_drop_link">Apply for Certificate <FiChevronRight className="drop_icon"/></div></NavLink>
             </li>
             <li>
-              <a href="" target="_blank">
+              <NavLink to="">
               <div className="inner_drop_link">Study Resources <FiChevronRight className="drop_icon"/></div>
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>
