@@ -181,19 +181,19 @@ const Navbar = () => {
               About Us <FiChevronRight className="drop_icon"/></div></NavLink>
             </li>
             <li>
-              <NavLink to=""><div className="inner_drop_link">Staff Profile <FiChevronRight className="drop_icon"/></div></NavLink>
+              <NavLink to="/team"><div className="inner_drop_link">Staff Profile <FiChevronRight className="drop_icon"/></div></NavLink>
             </li>
             <li>
               <NavLink to="/degree"><div className="inner_drop_link">Degree Programme <FiChevronRight className="drop_icon"/></div></NavLink>
             </li>
             <li>
-            <NavLink to="/degree"><div className="inner_drop_link">Schedule Meeting <FiChevronRight className="drop_icon"/></div></NavLink>
+            <NavLink to="https://group-2-nu.vercel.app/"><div className="inner_drop_link">Schedule Meeting <FiChevronRight className="drop_icon"/></div></NavLink>
             </li>
             <li>
               <NavLink to=""><div className="inner_drop_link">Students Handbook <FiChevronRight className="drop_icon"/></div></NavLink>
             </li>
             <li>
-              <NavLink to=""><div className="inner_drop_link">NACOS <FiChevronRight className="drop_icon"/></div></NavLink>
+              <NavLink to="https://nacos.org.ng/"><div className="inner_drop_link">NACOS <FiChevronRight className="drop_icon"/></div></NavLink>
             </li>
           </ul>
         </div>
@@ -221,7 +221,7 @@ const Navbar = () => {
             <NavLink to="/cert"><div className="inner_drop_link">Apply for Certificate <FiChevronRight className="drop_icon"/></div></NavLink>
             </li>
             <li>
-              <NavLink to="">
+              <NavLink to="https://ges-400-g5.github.io/__experimental/">
               <div className="inner_drop_link">Study Resources <FiChevronRight className="drop_icon"/></div>
               </NavLink>
             </li>
