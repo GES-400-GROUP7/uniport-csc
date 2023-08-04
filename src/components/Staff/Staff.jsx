@@ -16,7 +16,7 @@ function Staff() {
             and empowering students to excel in the world of technology.
           </span>
         </h2>
-        <Link className="btn" to="team">
+        <Link className="btn" to="/team">
           VISIT THE STAFF PROFILE PAGE
         </Link>
       </div>
@@ -52,7 +52,7 @@ function Staff() {
             </b>
           </div>
         </div>
-        <Link className="btn2" to="team">
+        <Link className="btn2" to="/team">
           VISIT THE STAFF PROFILE PAGE
         </Link>
       </div>

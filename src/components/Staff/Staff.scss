@@ -97,7 +97,8 @@
     width: 100%;
 
     .container-1 {
-      margin: 50px 30px 0 30px;
+      margin: 30px 20px 10px 20px;
+      width: 100%;
       h2 {
         font-family: Inter;
         font-size: 32px;
@@ -106,15 +107,17 @@
         line-height: normal;
         letter-spacing: -0.64px;
         margin-bottom: 15px;
+        width: 100%;
       }
       span {
         font-family: Inter;
-        font-size: 14px;
+        font-size: 12.5px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
         color: #7ad8ff;
         margin: 10px 0;
+        width: 85%;
       }
 
       .btn {
@@ -124,6 +127,7 @@
 
     .container-2 {
       margin: 0 27px;
+      width: 100%;
       div {
         display: flex;
         flex-wrap: wrap;
