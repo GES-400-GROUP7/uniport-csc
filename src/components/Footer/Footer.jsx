@@ -36,17 +36,17 @@ function Footer() {
             <ul>
               <li><NavLink to="/about" className="footer_link">About Us</NavLink></li>
               <li><NavLink to="/degree" className="footer_link">Degree Programme</NavLink></li>
-              <li><NavLink to="" className="footer_link">Staff Profiles</NavLink></li>
+              <li><NavLink to="/team" className="footer_link">Staff Profiles</NavLink></li>
               <li><NavLink to="/cert" className="footer_link">Certificate Application</NavLink></li>
               <li><NavLink to="" className="footer_link">Take Exam (CBT)</NavLink></li>
-              <li><NavLink to="" className="footer_link">Check Results</NavLink></li>
+              <li><NavLink to="https://csc-result-checker.vercel.app/" className="footer_link">Check Results</NavLink></li>
             </ul>
           </div>
           <div className="right_right_inner_footer">
             <ul>
-              <li><a href="">Schedule a Meet</a></li>
-              <li><a href="">Student’s Handbook</a></li>
-              <li><a href="">NACOS</a></li>
+              <li><a href="https://group-2-nu.vercel.app/">Schedule a Meet</a></li>
+              <li><a href="https://ges-400-g5.github.io/__experimental/">Student’s Handbook</a></li>
+              <li><a href="https://nacos.org.ng/">NACOS</a></li>
               <li><a href="">Check Timetable</a></li>
             </ul>
           </div>
@@ -55,12 +55,12 @@ function Footer() {
           <h3>Department</h3>
           <ul>
               <li><NavLink to="/about" className="footer_link">About Us</NavLink></li>
-              <li><NavLink to="" className="footer_link">Staff Profile</NavLink></li>
+              <li><NavLink to="/team" className="footer_link">Staff Profile</NavLink></li>
               <li><NavLink to="/degree" className="footer_link">Programme</NavLink></li>
-              <li><NavLink to="" className="footer_link">Meeting</NavLink></li>
+              <li><NavLink to="https://group-2-nu.vercel.app/" className="footer_link">Meeting</NavLink></li>
               <li><NavLink to="" className="footer_link">News/Events</NavLink></li>
-              <li><NavLink to="" className="footer_link">Handbook</NavLink></li>
-              <li><NavLink to="" className="footer_link">NACOS</NavLink></li>
+              <li><NavLink to="https://ges-400-g5.github.io/__experimental/" className="footer_link">Handbook</NavLink></li>
+              <li><NavLink to="https://nacos.org.ng/" className="footer_link">NACOS</NavLink></li>
             </ul>
         </div>
         <div className="dropdown_content_in_footer" id="#student">
@@ -70,7 +70,7 @@ function Footer() {
               <li><NavLink to="" className="footer_link">Timetable</NavLink></li>
               <li><NavLink to="" className="footer_link">Take Exam (CBT)</NavLink></li>
               <li><NavLink to="/cert" className="footer_link">Apply For Certificate</NavLink></li>
-              <li><NavLink to="" className="footer_link">Study Resources</NavLink></li>
+              <li><NavLink to="https://ges-400-g5.github.io/__experimental/" className="footer_link">Study Resources</NavLink></li>
             </ul>
         </div>
       </div>

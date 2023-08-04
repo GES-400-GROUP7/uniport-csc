@@ -85,7 +85,7 @@ const Navbar = () => {
               >
                 Student <FiChevronDown className="drop_down_icon" />
               </a>
-              <NavLink to="/news_events" onClick={closeNavbar}>
+              <NavLink to="/news" onClick={closeNavbar}>
                 News/Events
               </NavLink>
               <a href="#footer" onClick={closeNavbar}>
@@ -144,13 +144,13 @@ const Navbar = () => {
               <a href="#footer" onClick={closeNavbar}>
                 Student{" "}
               </a>
-              <NavLink to="/news_events" onClick={closeNavbar}>
+              <NavLink to="/news" onClick={closeNavbar}>
                 News/Events
               </NavLink>
               <a href="#footer" onClick={closeNavbar}>
                 Contact Us
               </a>
-              <NavLink to="" onClick={closeNavbar}>
+              <NavLink to="/direction" onClick={closeNavbar}>
                 <button className="mobile_join_us">Get Directions</button>
               </NavLink>
               <button
@@ -181,19 +181,19 @@ const Navbar = () => {
               About Us <FiChevronRight className="drop_icon"/></div></NavLink>
             </li>
             <li>
-              <NavLink to=""><div className="inner_drop_link">Staff Profile <FiChevronRight className="drop_icon"/></div></NavLink>
+              <NavLink to="/team"><div className="inner_drop_link">Staff Profile <FiChevronRight className="drop_icon"/></div></NavLink>
             </li>
             <li>
               <NavLink to="/degree"><div className="inner_drop_link">Degree Programme <FiChevronRight className="drop_icon"/></div></NavLink>
             </li>
             <li>
-            <NavLink to="/degree"><div className="inner_drop_link">Schedule Meeting <FiChevronRight className="drop_icon"/></div></NavLink>
+            <NavLink to="https://group-2-nu.vercel.app/"><div className="inner_drop_link">Schedule Meeting <FiChevronRight className="drop_icon"/></div></NavLink>
             </li>
             <li>
-              <NavLink to=""><div className="inner_drop_link">Students Handbook <FiChevronRight className="drop_icon"/></div></NavLink>
+              <NavLink to="https://ges-400-g5.github.io/__experimental/"><div className="inner_drop_link">Students Handbook <FiChevronRight className="drop_icon"/></div></NavLink>
             </li>
             <li>
-              <NavLink to=""><div className="inner_drop_link">NACOS <FiChevronRight className="drop_icon"/></div></NavLink>
+              <NavLink to="https://nacos.org.ng/"><div className="inner_drop_link">NACOS <FiChevronRight className="drop_icon"/></div></NavLink>
             </li>
           </ul>
         </div>
@@ -221,7 +221,7 @@ const Navbar = () => {
             <NavLink to="/cert"><div className="inner_drop_link">Apply for Certificate <FiChevronRight className="drop_icon"/></div></NavLink>
             </li>
             <li>
-              <NavLink to="">
+              <NavLink to="https://ges-400-g5.github.io/__experimental/">
               <div className="inner_drop_link">Study Resources <FiChevronRight className="drop_icon"/></div>
               </NavLink>
             </li>

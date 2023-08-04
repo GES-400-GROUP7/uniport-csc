@@ -10,8 +10,10 @@ function Staff() {
           Meet the staff Team
           <span>
             {" "}
-            At amet malesuada montes nunc semper. Auctor consequat cras amet
-            aliquam pretium feugiat.
+            Get to know the brilliant minds behind our Department of Computing.
+            Learn about our dedicated faculty and staff members who are
+            passionate about shaping the future of computer science education
+            and empowering students to excel in the world of technology.
           </span>
         </h2>
         <Link className="btn" to="team">

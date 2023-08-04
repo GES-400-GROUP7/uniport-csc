@@ -7,6 +7,7 @@ import Degree from "./pages/Degree/Degree";
 import About from "./pages/About/About";
 import Certificate from "./pages/Certificate/Certificate"
 import Direction from "./pages/Direction/Direction"
+import News from "./pages/News/News"
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/about" element={<About/>}/>
         <Route path="/cert" element={<Certificate/>}/>
         <Route path="/direction" element={<Direction/>}/>
+        <Route path="/news" element={<News/>}/>
       </Routes>
     </div>
   );

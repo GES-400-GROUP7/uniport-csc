@@ -15,43 +15,34 @@ function About() {
           <div className="background">
             <h3>Background</h3>
             <p>
-              Pretium pharetra iaculis nullam sed scelerisque eu suscipit ipsum
-              et. Dapibus cursus aenean pharetra ullamcorper. Rhoncus amet
-              elementum mattis ornare mauris eu turpis amet amet. Enim sagittis
-              volutpat euismod ut habitasse fusce. Fermentum elementum vitae
-              quis sit velit amet bibendum faucibus et. Commodo ut duis pretium
-              feugiat interdum elementum rhoncus lectus morbi. Viverra mi mollis
-              gravida suspendisse. Sollicitudin ut tortor in nunc nulla arcu.
-              Sed in volutpat massa dui nibh nunc aliquam id. Nec in nunc ac
-              bibendum. Enim et euismod hendrerit nibh pellentesque arcu.
-              Pharetra duis fringilla amet risus commodo volutpat sem vitae
-              nunc. Fermentum tortor malesuada bibendum in tempor condimentum
-              tempor. Nulla aenean tortor velit aliquam id massa bibendum mi
-              tortor. Id dui vel gravida tellus. Viverra pellentesque mauris
-              hendrerit elementum sapien. Odio diam nibh nulla lorem. Bibendum
-              nam consequat erat purus lobortis. Vel risus elementum varius
-              feugiat. Quis sed imperdiet in eget commodo.
+              The Department of Computing at the University of Port Harcourt is
+              a leading academic institution in Nigeria, offering diverse
+              undergraduate and postgraduate programs in computer science and
+              related fields. With a focus on academic excellence and practical
+              skills, the department equips students with the knowledge to solve
+              real-world challenges in the technology industry. Supported by
+              experienced faculty and modern facilities, it fosters a culture of
+              innovation and collaboration with industry partners, contributing
+              to the nation's technological advancement.
             </p>
           </div>
           <div className="achievement">
             <h3>Achievements</h3>
             <p>
-              Pretium pharetra iaculis nullam sed scelerisque eu suscipit ipsum
-              et. Dapibus cursus aenean pharetra ullamcorper. Rhoncus amet
-              elementum mattis ornare mauris eu turpis amet amet. Enim sagittis
-              volutpat euismod ut habitasse fusce. Fermentum elementum vitae
-              quis sit velit amet bibendum faucibus et. Commodo ut duis pretium
-              feugiat interdum elementum rhoncus lectus morbi. Viverra mi mollis
-              gravida suspendisse. Sollicitudin ut tortor in nunc nulla arcu.
-              Sed in volutpat massa dui nibh nunc aliquam id. Nec in nunc ac
-              bibendum. Enim et euismod hendrerit nibh pellentesque arcu.
-              Pharetra duis fringilla amet risus commodo volutpat sem vitae
-              nunc. Fermentum tortor malesuada bibendum in tempor condimentum
-              tempor. Nulla aenean tortor velit aliquam id massa bibendum mi
-              tortor. Id dui vel gravida tellus. Viverra pellentesque mauris
-              hendrerit elementum sapien. Odio diam nibh nulla lorem. Bibendum
-              nam consequat erat purus lobortis. Vel risus elementum varius
-              feugiat. Quis sed imperdiet in eget commodo.
+              The Department of Computing at the University of Port Harcourt has
+              achieved notable success in various areas. It conducts
+              cutting-edge research, collaborates with industry partners, and
+              produces skilled graduates. The department encourages student
+              participation in competitions, offers state-of-the-art facilities,
+              and engages with the community. Its achievements are recognized
+              through accreditation and contributions to open-source projects.
+              Overall, the department's commitment to excellence has a
+              significant impact on technology advancement and the development
+              of skilled professionals. The Department of Computing at the
+              University of Port Harcourt has achieved several notable
+              milestones and accomplishments, contributing to its reputation as
+              a leading academic institution in the field of computer science
+              and technology.
             </p>
           </div>
         </div>

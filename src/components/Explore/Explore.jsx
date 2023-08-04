@@ -8,7 +8,7 @@ function Explore() {
         <div>
           <h2>
             Explore the Department{" "}
-            <span>Habitasse ut nibh fames rhoncus dolor</span>
+            <span>Discover the vibrant world of computer science and technology offered by our Department of Computing.</span>
           </h2>
         </div>
         <div className="cover">
