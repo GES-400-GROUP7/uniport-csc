@@ -8,7 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 function Certificate() {
   const notify = () => {
-    toast.success("Application submitted successfully to our Admin", {
+    toast.success("Application submitted to Admin", {
       position: toast.POSITION.TOP_CENTER,
     });
   };
@@ -28,6 +28,7 @@ function Certificate() {
             action="mailto:christofaokoro@gmail.com"
             method="post"
             enctype="text/plain"
+            onSubmit={notify}
             className="flex flex-col gap-5"
           >
             <FormInput
@@ -66,7 +67,6 @@ function Certificate() {
               <button
                 className="bg-[#0042A5] text-[10px] text-white p-3 font-semibold hover:opacity-70"
                 type="submit"
-                onSubmit={notify}
               >
                 SUBMIT APPLICATION
               </button>
