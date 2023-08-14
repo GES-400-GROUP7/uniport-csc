@@ -12,15 +12,12 @@
     "react-leaflet": "^4.2.1",
     "react-router-dom": "^6.14.1",
     "react-scripts": "5.0.1",
-<<<<<<< HEAD
     "react-slick": "^0.29.0",
     "sass": "^1.63.6",
     "slick-carousel": "^1.8.1",
-    "swiper": "^10.1.0"
-=======
+    "swiper": "^10.1.0",
     "react-toastify": "^9.1.3",
     "sass": "^1.63.6"
->>>>>>> 7adf33a6a2d56d88d51944ca0074a738f6203d1d
   },
   "scripts": {
     "start": "react-scripts start",
