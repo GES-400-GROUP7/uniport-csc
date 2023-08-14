@@ -12,7 +12,7 @@ function Certificate() {
           <h1 className="py-10">Certificate Application</h1>
         </section>
         <section className="px-16 py-10 md:px-32 md:py-20">
-          <p className="text-[#E3002F] pb-8 text-sm font-semibold">Make sure to input your correct information (apply once and wait for a response via email) </p>
+          <p className="text-[#E3002F] pb-8 text-sm font-bold">Make sure to input your correct information (apply once and wait for a response via email) </p>
           <form action="mailto:christofaokoro@gmail.com" method="post" enctype="text/plain" className="flex flex-col gap-5">
             <FormInput
               inputName="Matriculation"

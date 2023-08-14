@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../../components/Layout/Layout";
+import {BsCheckAll} from "react-icons/bs"
 
 // stylesheet
 import "./Degree.scss";
@@ -74,18 +75,17 @@ function Degree() {
               <b>Academic Qualifications:</b>
               <ul>
                 <li>
-                  Obtain a minimum JAMB score of 180, which is the school's
-                  cutoff score for admission consideration.
+                <BsCheckAll className="bullet" size={30} /> Obtain a minimum JAMB score of 180, which is the school's cutoff score for admission consideration.
                 </li>
                 <li>
-                  Score above the department's Post UTME cutoff, which is set at
+                <BsCheckAll className="bullet" size={30}/> Score above the department's Post UTME cutoff, which is set at
                   200, as part of the admission requirements.
                 </li>
               </ul>
               <b>Possess a Laptop:</b>
               <ul>
                 <li>
-                  Prospective students must have access to a personal laptop, as
+                <BsCheckAll className="bullet" size={35}/> Prospective students must have access to a personal laptop, as
                   it is an essential tool for practical learning and coursework
                   in these technology-related programs.
                 </li>
@@ -93,17 +93,16 @@ function Degree() {
               <b>Required Documents:</b>
               <ul>
                 <li>
-                  Applicants must provide all necessary academic documents, such
-                  as O'Level results (with at least five credit passes in
-                  relevant subjects, including Mathematics and English
+                  <BsCheckAll className="bullet" size={35}/> Applicants must provide all necessary academic documents, such
+                  as O'Level results (with at least five credit passes in relevant subjects, including Mathematics and English
                   Language).
                 </li>
                 <li>
-                  Candidates should also submit their JAMB result slip, showing
+                <BsCheckAll className="bullet" size={30}/> Candidates should also submit their JAMB result slip, showing
                   their JAMB score.
                 </li>
                 <li>
-                  Any other required documents for verification purposes as
+                <BsCheckAll className="bullet" size={30}/> Any other required documents for verification purposes as
                   specified by the University.
                 </li>
               </ul> <br />
