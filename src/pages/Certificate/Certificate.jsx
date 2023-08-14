@@ -77,5 +77,4 @@ function Certificate() {
     </Layout>
   );
 }
-
 export default Certificate;
