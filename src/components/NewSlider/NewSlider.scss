@@ -1,5 +1,70 @@
 .Slider {
+  margin-top: 80px;
+  .container {
+    .cover {
+        margin-top: 10px;
+      div {
+        border: 1px solid rgb(188, 188, 188);
+        width: 450px;
+        height: 205px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 15px;
+        margin-bottom: 50px;
+        background-color: rgb(188, 188, 188);
+
+        b {
+          color: #002660;
+          font-family: Inter;
+          font-size: 35px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          letter-spacing: -0.96px;
+          width: 290px;
+        }
+      }
+
+      div:hover {
+        background-color: #0f0b32;
+        b {
+          color: white;
+        }
+        color: white;
+      }
+    }
+  }
+  .close-cover {
+    background-color: #0f0b32;
+    color: white;
     display: flex;
+    width: 1920px;
+    height: 101px;
     justify-content: center;
-    border: 1px solid black;
+    align-items: center;
+    gap: 36px;
+    margin-top: 80px;
+
+    p {
+      font-family: Inter;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+
+    a {
+        border: 1px solid #0042a5;
+      padding: 17px 32px;
+      background-color: #0042a5;
+      font-family: Inter;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 0.42px;
+      text-transform: uppercase;
+    }
+  }
 }

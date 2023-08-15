@@ -26,7 +26,7 @@ function Staff() {
           <div>
             <img src="/images/Lecturer2.jpg" alt="" />
             <b>
-              Dr. Friday Onuodu
+              Assoc Prof. Friday Onuodu
               <span>Head of Deptartment</span>
             </b>
           </div>
@@ -40,14 +40,14 @@ function Staff() {
           <div>
             <img src="/images/Lecturer4.jpg" alt="" />
             <b>
-              Dr. Friday Onuodu
+              Dr. Bridam 
               <span>Lecturer</span>
             </b>
           </div>
           <div>
             <img src="/images/Lecturer5.jpg" alt="" />
             <b>
-              Dr. Wobodi
+              Dr. Echebiri Nwobidi
               <span>Lecturer</span>
             </b>
           </div>
