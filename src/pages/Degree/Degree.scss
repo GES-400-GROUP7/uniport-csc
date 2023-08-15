@@ -196,5 +196,18 @@
         }
       }
     }
+
+    ul {
+      li {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+  
+        .bullet {
+          color: rgb(10, 10, 184);
+        }
+      }
+    }
   }
+  
 }
