@@ -27,7 +27,7 @@ function Team() {
                   <div>
                     <img
                       className="image"
-                      src="/images/Staff - Photo.jpg"
+                      src="/images/No-Image-Placeholder.svg.png"
                       alt=""
                     />
                     <b className="title">
@@ -37,7 +37,7 @@ function Team() {
                   <div>
                     <img
                       className="image"
-                      src="/images/Staff - Photo.jpg"
+                      src="/images/No-Image-Placeholder.svg.png"
                       alt=""
                     />
                     <b className="title">
@@ -47,7 +47,7 @@ function Team() {
                   <div>
                     <img
                       className="image"
-                      src="/images/Staff - Photo.jpg"
+                      src="/images/No-Image-Placeholder.svg.png"
                       alt=""
                     />
                     <b className="title">
@@ -57,7 +57,7 @@ function Team() {
                   <div>
                     <img
                       className="image"
-                      src="/images/Staff - Photo.jpg"
+                      src="/images/No-Image-Placeholder.svg.png"
                       alt=""
                     />
                     <b className="title">

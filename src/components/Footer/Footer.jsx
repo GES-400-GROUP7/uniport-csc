@@ -38,7 +38,7 @@ function Footer() {
               <li><NavLink to="/degree" className="footer_link">Degree Programme</NavLink></li>
               <li><NavLink to="/team" className="footer_link">Staff Profiles</NavLink></li>
               <li><NavLink to="/cert" className="footer_link">Certificate Application</NavLink></li>
-              <li><NavLink to="" className="footer_link">Take Exam (CBT)</NavLink></li>
+              <li><NavLink to="https://github.com/Tammibriggs/university-cbt/tree/main" className="footer_link">Take Exam (CBT)</NavLink></li>
               <li><NavLink to="https://csc-result-checker.vercel.app/" className="footer_link">Check Results</NavLink></li>
             </ul>
           </div>
