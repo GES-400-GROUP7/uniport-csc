@@ -65,12 +65,14 @@
         b {
           display: flex;
           flex-direction: column;
+          gap: 5px;
           font-family: Inter;
           font-size: 24px;
           font-style: normal;
           font-weight: 700;
           line-height: normal;
           color: #f4f9ff;
+    
           span {
             font-family: Inter;
             font-size: 14px;

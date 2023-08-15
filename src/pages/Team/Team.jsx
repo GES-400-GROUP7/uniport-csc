@@ -15,13 +15,9 @@ function Team() {
               <div className="container1">
                 <h1 className="headings">Head of Department</h1>
                 <div>
-                  <img
-                    className="image"
-                    src="/images/Lecturer2.jpg"
-                    alt=""
-                  />
+                  <img className="image" src="/images/Lecturer2.jpg" alt="" />
                   <b className="title">
-                    Dr. Friday Onuodu<span>Head of Department</span>
+                    Assoc Prof. Friday Onuodu<span>Head of Department</span>
                   </b>
                 </div>
               </div>
@@ -35,7 +31,7 @@ function Team() {
                       alt=""
                     />
                     <b className="title">
-                      Dr. Friday Onuodu<span>Head of Department</span>
+                      Chukwudi Amaechi<span>Secretary</span>
                     </b>
                   </div>
                   <div>
@@ -45,7 +41,7 @@ function Team() {
                       alt=""
                     />
                     <b className="title">
-                      Dr. Friday Onuodu<span>Head of Department</span>
+                      Ifeoma Okonkwo<span>Clerk</span>
                     </b>
                   </div>
                   <div>
@@ -55,7 +51,7 @@ function Team() {
                       alt=""
                     />
                     <b className="title">
-                      Dr. Friday Onuodu<span>Head of Department</span>
+                      Chidinma Obi<span>Treasurer</span>
                     </b>
                   </div>
                   <div>
@@ -65,7 +61,7 @@ function Team() {
                       alt=""
                     />
                     <b className="title">
-                      Dr. Friday Onuodu<span>Head of Department</span>
+                      Emeka Wike<span>Academic staff</span>
                     </b>
                   </div>
                 </div>
@@ -74,51 +70,31 @@ function Team() {
                 <h1 className="headings">Lecturers</h1>
                 <div>
                   <div>
-                    <img
-                      className="image"
-                      src="/images/Lecturer1.jpg"
-                      alt=""
-                    />
+                    <img className="image" src="/images/Lecturer1.jpg" alt="" />
                     <b className="title">
                       Dr. L.U Oghenekaro<span>Lecturer</span>
                     </b>
                   </div>
                   <div>
-                    <img
-                      className="image"
-                      src="/images/Lecturer3.jpg"
-                      alt=""
-                    />
+                    <img className="image" src="/images/Lecturer3.jpg" alt="" />
                     <b className="title">
-                      Dr. Friday Onuodu<span>Asst. Lecturer</span>
+                      MS. Frank Olise <span>Asst. Lecturer</span>
                     </b>
                   </div>
                   <div>
-                    <img
-                      className="image"
-                      src="/images/Lecturer4.jpg"
-                      alt=""
-                    />
+                    <img className="image" src="/images/Lecturer4.jpg" alt="" />
                     <b className="title">
-                      Dr. Friday Onuodu<span>Lecturer</span>
+                      Dr. Baridam <span>Lecturer</span>
                     </b>
                   </div>
                   <div>
-                    <img
-                      className="image"
-                      src="/images/Lecturer5.jpg"
-                      alt=""
-                    />
+                    <img className="image" src="/images/Lecturer5.jpg" alt="" />
                     <b className="title">
-                      Dr. Wobidi <span>Lecturer</span>
+                      Dr Echebiri Nwobidi <span>Lecturer</span>
                     </b>
                   </div>
                   <div>
-                    <img
-                      className="image"
-                      src="/images/Lecturer6.jpg"
-                      alt=""
-                    />
+                    <img className="image" src="/images/Lecturer6.jpg" alt="" />
                     <b className="title">
                       Dr. Rotimi <span>Lecturer</span>
                     </b>
