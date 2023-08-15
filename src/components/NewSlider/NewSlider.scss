@@ -2,7 +2,7 @@
   margin-top: 80px;
   .container {
     .cover {
-        margin-top: 10px;
+      margin-top: 10px;
       div {
         border: 1px solid rgb(188, 188, 188);
         width: 450px;
@@ -35,6 +35,9 @@
       }
     }
   }
+  .mobile-view {
+    display: none;
+  }
   .close-cover {
     background-color: #0f0b32;
     color: white;
@@ -55,7 +58,7 @@
     }
 
     a {
-        border: 1px solid #0042a5;
+      border: 1px solid #0042a5;
       padding: 17px 32px;
       background-color: #0042a5;
       font-family: Inter;
@@ -66,5 +69,77 @@
       letter-spacing: 0.42px;
       text-transform: uppercase;
     }
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+    .web-view {
+      display: none;
+    }
+
+    .mobile-view {
+      display: block;
+    }
+
+    .container {
+      margin-top: 0;
+      .cover {
+        padding: 15px;
+        div {
+          border: 1px solid rgb(188, 188, 188);
+          width: 300px;
+          height: 150px;
+          padding: 10px;
+          margin-bottom: 10px;
+
+          b {
+            font-size: 18px;
+            width: 150px;
+          }
+        }
+
+        div:hover {
+          background-color: #0f0b32;
+          b {
+            color: white;
+          }
+          color: white;
+        }
+      }
+    }
+    .close-cover {
+        background-color: #0f0b32;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 231px;
+        // justify-content: center;
+        // align-items: normal;
+        gap: 36px;
+        margin-top: 80px;
+    
+        p {
+          font-family: Inter;
+          font-size: 32px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          width: 58%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+    
+        a {
+            border: 1px solid #0042a5;
+          padding: 17px 32px;
+          font-family: Inter;
+          font-size: 14px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
   }
 }

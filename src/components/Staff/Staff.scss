@@ -99,8 +99,8 @@
     width: 100%;
 
     .container-1 {
-      margin: 30px 23px 10px 29px;
-      width: 100%;
+     margin: 30px auto;
+      width: 90%;
       h2 {
         font-family: Inter;
         font-size: 35px;
@@ -109,7 +109,6 @@
         line-height: normal;
         letter-spacing: -0.64px;
         margin-bottom: 15px;
-        width: 100%;
       }
       span {
         font-family: Inter;
@@ -119,7 +118,6 @@
         line-height: normal;
         color: #7ad8ff;
         margin: 10px 0;
-        width: 85%;
       }
 
       .btn {
@@ -128,8 +126,9 @@
     }
 
     .container-2 {
-      margin: 0 35px;
-      width: 100%;
+      margin: 0 auto;
+      width: 90%;
+      
       div {
         display: flex;
         flex-wrap: wrap;
@@ -145,7 +144,7 @@
           }
           b {
             font-family: Inter;
-            font-size: 16px;
+            font-size: 13px;
             font-style: normal;
             font-weight: 500;
             line-height: normal;

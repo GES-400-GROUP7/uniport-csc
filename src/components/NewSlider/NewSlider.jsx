@@ -16,9 +16,10 @@ import "./NewSlider.scss";
 const NewSlider = () => {
   return (
     <div className="Slider">
-      <Swiper
+      <div className="web-view">
+         <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}
-        spaceBetween={50}
+        spaceBetween={20}
         slidesPerView={4}
         navigation
         pagination={{ clickable: true }}
@@ -71,6 +72,66 @@ const NewSlider = () => {
         </SwiperSlide>
         ...
       </Swiper>
+      </div>
+     
+     <div className="mobile-view">
+      <Swiper
+        modules={[Navigation, Pagination, Scrollbar, A11y]}
+        spaceBetween={5}
+        slidesPerView={2}
+        navigation
+        pagination={{ clickable: true }}
+        scrollbar={{ draggable: true }}
+        onSlideChange={() => console.log("slide change")}
+        onSwiper={(swiper) => console.log(swiper)}
+        className="container"
+      >
+        <SwiperSlide className="cover">
+          <div>
+            <b>HOD's Cup is here again</b>
+            <Link to="/news">View more</Link>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="cover">
+          <div>
+            <b>Exam Timetable is Out!</b>
+            <Link to="/news">View more</Link>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="cover">
+          <div>
+            <b>This Year's Hackathon</b>
+            <Link to="/news">View more</Link>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="cover">
+          <div>
+            <b>CSC's new code of conduct</b>
+            <Link to="/news">View more</Link>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="cover">
+          <div>
+            <b>HOD's Cup is here again</b>
+            <Link to="/news">View more</Link>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="cover">
+          <div>
+            <b>HOD's Cup is here again</b>
+            <Link to="/news">View more</Link>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="cover">
+          <div>
+            <b>HOD's Cup is here again</b>
+            <Link to="/news">View more</Link>
+          </div>
+        </SwiperSlide>
+        ...
+      </Swiper>
+     </div>
+      
       <div className="close-cover">
         <p>Do you wish to meet with the department?</p> 
         <a href="https://group-2-nu.vercel.app/">SCHEDULE A MEETING</a>
